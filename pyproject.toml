@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "account-operation-1"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Lapin <serglapinofff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "account_operation_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+coverage = "^7.2.7"
+pytest-cov = "^2.12"
+iniconfig = "^2.0.0"
+attrs = "^23.1.0"
+pluggy = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
